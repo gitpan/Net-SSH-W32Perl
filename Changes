@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::SSH::W32Perl.
 
+0.05  Thu Apr 18 09:16:00 am
+	- Updated installation procedures in README to 
+	  mention the ppds available at soulcage.net
+
 0.04  Fri Apr 12 14:02:00 2002
 	- Removed PC Line-Endings for CPAN
 

@@ -2,18 +2,25 @@ NAME
     Net::SSH::W32Perl - Win32 compatibility layer for Net::SSH::Perl
 
 SYNOPSIS
-        use Net::SSH::W32Perl;
+    use Net::SSH::W32Perl;
 
-        my $host = 'foo.bar.com';
-        my $ssh = new Net::SSH::W32Perl($host, [options]);
-        $ssh->login('user', 'password');
-        my ($out, $err, $exit) = $ssh->cmd('cat', 'Hello W32 User!');
+    my $host = 'foo.bar.com';
+    my $ssh = new Net::SSH::W32Perl($host, [options]);
+    $ssh->login('user', 'password');
+    my ($out, $err, $exit) = $ssh->cmd('cat', 'Hello W32 User!');
 
 INSTALLATION
-            perl Makefile.PL
-            nmake
-            nmake test
-            nmake install
+    perl Makefile.PL
+    nmake
+    nmake test
+    nmake install
+            
+    NOTE: I've made ppms (binaries) available for this and most of it's 
+    required modules at http://www.soulcage.net/ppds/. The following 
+    command should install everything you need.
+
+    "ppm install --location=http://www.soulcage.net/ppds Net::SSH::W32Perl"
+    
         
 ABSTRACT
     This module provides limited Net::SSH::Perl functionality under Win32

@@ -11,7 +11,7 @@ use constant DEFAULT_SSH_PORT => '22';
 use constant IS_WIN32 => ($^O =~ /MSWin32/i);
 
 use vars qw/ $VERSION @ISA/;
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 @ISA = qw/Net::SSH::Perl/;
 
