@@ -7,7 +7,7 @@ WriteMakefile(
     PREREQ_PM => { 
     	Net::SSH::Perl => 1.23,
     	IO::String => 1.01,
-    	IO::Select::Trap => 0.01,
+    	IO::Select::Trap => 0.02,
     	# The following prereqs force installation of
     	# some 'optional' packages that are used
     	# by Net::SSH::Perl
